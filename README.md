@@ -6,7 +6,7 @@
 <p align="center">
   <b>Special thanks to the generous sponsorship by:</b>
   <br><br>
-  <a href="https://www.yousails.com">
+  <a target="_blank" href="https://www.yousails.com">
     <img src="https://yousails.com/banners/brand.png" width=350>
   </a>
 </p>
@@ -18,6 +18,7 @@
 - PHP >= 7.0
 - [PHP fileinfo 拓展](http://php.net/manual/en/book.fileinfo.php) 储存文件需要用到
 - [PHP gd 拓展](http://php.net/manual/en/book.image.php) 控制台显示二维码
+- [PHP posix 拓展](http://www.php.net/manual/en/book.posix.php) 控制台显示二维码(linux)
 - [PHP 系统命令 拓展](https://secure.php.net/manual/en/book.exec.php) 执行clear命令
 - [PHP SimpleXML 拓展](https://secure.php.net/manual/en/book.simplexml.php) 解析XML
 
@@ -109,17 +110,13 @@ vbot示例源码为 https://github.com/HanSon/vbot/tree/master/demo/vbot.php
 
 [购书半自动处理](http://t.laravel-china.org/laravel-tutorial/5.1/buy-it)
 
-[红包提醒](example/hongbao.php)
+[轰炸消息到某群名](example/group.php)
 
-[轰炸消息到某群名](xample/group.php)
+[消息转发](example/forward.php)
 
-[消息转发](xample/forward.php)
+[自定义处理器](example/custom.php)
 
-[自定义处理器](xample/custom.php)
-
-[一键拜年](xample/bainian.php)
-
-[聊天操作](xample/contact.php)
+[一键拜年](example/bainian.php)
 
 
 ### 基本使用
@@ -159,21 +156,21 @@ $robot->server->run();
 
 vbot 已实现以及待实现的功能列表 [点击查看](https://github.com/HanSon/vbot/wiki/todolist)
 
-## 参考项目
+## 相似项目
 
-[lbbniu/WebWechat](https://github.com/lbbniu/WebWechat)
+[littlecodersh/ItChat](https://github.com/littlecodersh/ItChat) python
 
-[littlecodersh/ItChat](https://github.com/littlecodersh/ItChat) 
+[Wechaty - A Javascript Implementation of Wechat Bot Framework](https://github.com/Chatie/wechaty)
 
-感谢楼上两位作者曾对本人耐心解答
+[liuwons/wxBot](https://github.com/liuwons/wxBot) python
 
-[liuwons/wxBot](https://github.com/liuwons/wxBot) 参考了整个微信的登录流程与消息处理
+[lbbniu/WebWechat](https://github.com/lbbniu/WebWechat) php
 
 ## 贡献者
 
 排名不分先后，时间排序
 
-[zhuanxuhit](https://github.com/zhuanxuhit) terminal显示二维码
+[leo108](https://github.com/leo108) & [zhuanxuhit](https://github.com/zhuanxuhit)  terminal显示二维码 [php-console-qrcode](https://github.com/leo108/php-console-qrcode)
 
 [littlecodersh](https://github.com/littlecodersh) 分次加载好友数量方案
 
@@ -189,13 +186,26 @@ vbot 已实现以及待实现的功能列表 [点击查看](https://github.com/H
 
 ## donate 名单
 
-
 vbot 的发展离不开大家的支持，无论是star或者donate，本人都衷心的感谢各位，也会尽自己的绵薄之力把 vbot 做到最好。
 
 donate 名单 （排名按时间倒序）
 
 |捐助者|金额|
 |-----|----|
+|小浪| ￥10|
+|[美羊软件](http://www.yangsoft.cn/)|￥66|
+|匿名| ￥200|
+|[KimiChen](https://github.com/KimiChen)|￥188|
+|倪好 | ￥88 * 2|
+|[桥边红药的博客](https://www.96qbhy.com)|￥21|
+|匿名| ￥6.66|
+|[liuhui5354](https://github.com/liuhui5354)|￥6.66|
+|匿名| ￥6.66|
+|匿名| ￥50.00|
+|[bestony](https://github.com/bestony)|￥10.24|
+|匿名| ￥8.88|
+|[haidaofei](https://github.com/haidaofei)|￥88.00|
+|[kyaky](https://github.com/kyaky)|￥16.66|
 |[justmd5](https://github.com/justmd5)|￥10.00|
 |匿名| ￥20.00|
 |匿名| ￥88.88|
